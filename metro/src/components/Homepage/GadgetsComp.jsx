@@ -1,5 +1,5 @@
 import React from 'react'
-import Gadgets from "../../assets/p_11-360x432.jpg"
+import Gadgets from "../../assets/./HomePagePic/p_11-360x432.jpg"
 
 const GadgetsComp = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import bluetothSpeaker from "../../assets/bluetooth_speaker-360x432.jpg"
+import bluetothSpeaker from "../../assets/./HomePagePic/bluetooth_speaker-360x432.jpg"
 
 const SpeakerComp = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import keyBoard from "../../assets/Keyboard.jpg"
+import keyBoard from "../../assets/./HomePagePic/Keyboard.jpg"
 
 const KeyboardComp = () => {
   return (

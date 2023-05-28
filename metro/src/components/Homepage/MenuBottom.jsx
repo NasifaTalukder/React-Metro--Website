@@ -11,11 +11,11 @@ const MenuBottom = () => {
             <button className='pl-6 pr-[110px] pt-3 pb-3 bg-black text-white text-2xl rounded-t'><SortIcon fontSize='large' className='mr-2'/>CATEGORIES</button>
           </div>
           <div>
-            <input type="text" name="" id="" placeholder='Search Products Here' className='pl-6 pr-[750px] pt-4 pb-4 ml-4 rounded border-2 font-semibold border-solid border-[#ddd] relative outline-0' />
+            <input type="text" name="" id="" placeholder='Search Products Here' className='font-sans pl-6 pr-[730px] pt-4 pb-4 ml-4 rounded border-2 font-semibold border-solid border-[#ddd] relative outline-0' />
             </div>           
             <span className='w-[1px] h-8 bg-[#ddd] absolute ml-[950px] mt-3 '></span>                    
             <div className='absolute ml-[980px] mt-4'>           
-            <select name="" id="" className='pl-4 pr-8 text-lg outline-0 text-slate-600'>             
+            <select name="" id="" className='pl-4 pr-8 text-lg outline-0 text-slate-600 font-sans'>             
                <option value="">All categories</option>
                <option value="">Air Filter</option>
                <option value="">Body Engine</option>

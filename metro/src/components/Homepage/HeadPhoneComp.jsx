@@ -1,5 +1,5 @@
 import React from 'react'
-import cardHeadphone from "../../assets/p_5-111-360x432.jpg";
+import cardHeadphone from "../../assets/./HomePagePic/p_5-111-360x432.jpg";
 
 const HeadPhoneComp = () => {
   return (

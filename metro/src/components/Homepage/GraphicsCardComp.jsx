@@ -1,5 +1,5 @@
 import React from 'react'
-import GraphicsCard from "../../assets/card-360x432.jpg"
+import GraphicsCard from "../../assets/./HomePagePic/card-360x432.jpg"
 
 const GraphicsCardComp = () => {
   return (

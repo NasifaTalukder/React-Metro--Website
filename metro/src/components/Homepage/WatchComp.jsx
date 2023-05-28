@@ -1,5 +1,5 @@
 import React from 'react'
-import Watch from "../../assets/p_4-1-360x432.jpg"
+import Watch from "../../assets/./HomePagePic/p_4-1-360x432.jpg"
 
 const WatchComp = () => {
   return (

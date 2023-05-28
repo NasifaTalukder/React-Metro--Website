@@ -1,8 +1,8 @@
 import React from 'react'
-import VisaCard from "../../assets/payment1.png"
-import MasterCard from "../../assets/payment2.png"
-import Discover from "../../assets/payment3.png"
-import AmericalExpress from "../../assets/payment4.png"
+import VisaCard from "../../assets/./HomePagePic/payment1.png"
+import MasterCard from "../../assets/./HomePagePic/payment2.png"
+import Discover from "../../assets/./HomePagePic/payment3.png"
+import AmericalExpress from "../../assets/./HomePagePic/payment4.png"
 
 const PaymentMethod = () => {
   return (

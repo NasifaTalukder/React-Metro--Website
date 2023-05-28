@@ -1,5 +1,5 @@
 import React from 'react'
-import ultraLense from "../../assets/l-360x432.jpg"
+import ultraLense from "../../assets/./HomePagePic/l-360x432.jpg"
 
 const UltraLaserComp = () => {
   return (

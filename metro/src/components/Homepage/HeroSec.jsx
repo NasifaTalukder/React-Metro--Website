@@ -1,12 +1,12 @@
 import React from 'react'
-import slideBackground from "../../assets/slide backgrnd.jpg"
-import slideImgOne from "../../assets/homeslide_1.png"
+import slideBackground from "../../assets/./HomePagePic/slide backgrnd.jpg"
+import slideImgOne from "../../assets/./HomePagePic/homeslide_1.png"
 
 const HeroSec = () => {
   return (
     <>
       <div>
-    <img src={slideBackground} alt="" className='relative'/>
+    <img src={slideBackground} alt="" className='relative w-full h-[585px] bg-cover bg-fixed'/>
     
       <div className='w-[1300px] m-auto'>  
        

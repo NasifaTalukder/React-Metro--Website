@@ -1,5 +1,5 @@
 import React from 'react'
-import Bluetoth from "../../assets/electronics_2-360x432.jpg"
+import Bluetoth from "../../assets/./HomePagePic/electronics_2-360x432.jpg"
 
 const BluetoothComp = () => {
   return (

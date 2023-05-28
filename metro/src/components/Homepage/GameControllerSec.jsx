@@ -1,5 +1,5 @@
 import React from 'react'
-import GameController from "../../assets/vr.jpg";
+import GameController from "../../assets/./HomePagePic/vr.jpg";
 
 const GameControllerSec = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import LightLogo from "../../assets/logo-light.png"
+import LightLogo from "../../assets/./HomePagePic/logo-light.png"
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
 import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';

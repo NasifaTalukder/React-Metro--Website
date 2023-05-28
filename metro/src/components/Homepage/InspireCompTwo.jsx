@@ -1,5 +1,5 @@
 import React from 'react'
-import InspireImagetwo from "../../assets/blog-10-1-465x290.jpg"
+import InspireImagetwo from "../../assets/./HomePagePic/blog-10-1-465x290.jpg"
 
 const InspireCompTwo = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import HeadPhone from "../../assets/444.png";
+import HeadPhone from "../../assets/./HomePagePic/444.png";
 
 const headPhone = () => {
   return (

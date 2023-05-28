@@ -1,10 +1,13 @@
 import React from 'react';
-import darkLogo from "../../assets/logo-dark.png";
+import darkLogo from "../../assets/./HomePagePic/logo-dark.png";
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import {
+  Link,
+} from "react-router-dom";
 
 const MenuSec = () => {
   return (
@@ -16,22 +19,22 @@ const MenuSec = () => {
           <div>
             <div className='ml-[106px]'>
               <ul className='flex flex-wrap space-x-2 text-medium font-medium  mt-3'>
-                <li><a href="#">Home<KeyboardArrowDownIcon fontSize='small'/></a></li>
-                <li><a href="#">Shop<KeyboardArrowDownIcon fontSize='small'/></a></li>
-                <li><a href="#">Card<KeyboardArrowDownIcon fontSize='small'/></a></li>
-                <li><a href="#">Checkout<KeyboardArrowDownIcon fontSize='small'/></a></li>
-                <li><a href="#">Error<KeyboardArrowDownIcon fontSize='small'/></a></li>
-                <li><a href="#">My Account<KeyboardArrowDownIcon fontSize='small'/></a></li>
-                <li><a href="#">Contact</a></li>
+                <li><Link to="/">Home<KeyboardArrowDownIcon fontSize='small'/></Link></li>
+                <li><Link to="/Shop">Shop<KeyboardArrowDownIcon fontSize='small'/></Link></li>
+                <li><Link to="#">Card<KeyboardArrowDownIcon fontSize='small'/></Link></li>
+                <li><Link to="/CheckOut">Checkout<KeyboardArrowDownIcon fontSize='small'/></Link></li>
+                <li><Link to="/404">Error<KeyboardArrowDownIcon fontSize='small'/></Link></li>
+                <li><Link to="/My Account">My Account<KeyboardArrowDownIcon fontSize='small'/></Link></li>
+                <li><Link to="#">Contact</Link></li>
               </ul>
             </div>
             </div>
-            <div className='flex flex-wrap space-x-3 mt-2 ml-28'>
+            <div className='flex flex-wrap space-x-3 mt-2 ml-28 font-sans'>
             <SearchIcon fontSize='large'/>
             <PersonOutlineIcon fontSize='large'/>
             <FavoriteBorderIcon fontSize='large'/>            
             <ShoppingCartIcon fontSize='large'/>
-            <p className='text-lg mt-2'>$0.00</p>
+            <p className='text-xl mt-2 font-sans'>$160.00</p>
             </div>         
         </div>
     </>

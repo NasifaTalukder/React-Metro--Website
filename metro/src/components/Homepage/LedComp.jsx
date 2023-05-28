@@ -1,5 +1,5 @@
 import React from 'react'
-import LeshangerLight from "../../assets/443.png";
+import LeshangerLight from "../../assets/./HomePagePic/443.png";
 
 const LedComp = () => {
   return (
