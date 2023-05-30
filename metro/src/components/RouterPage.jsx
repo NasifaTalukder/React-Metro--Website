@@ -4,11 +4,15 @@ import Shop from "../components/Shop"
 import {CheckOut} from '../components/CheckOut';
 import {Account} from '../components/Account';
 import {Error} from "../components/Error"
+import { Contact } from './Contact';
+import { Cart } from './Cart';
 import {
     BrowserRouter as Router,
     Route,
     Routes
   } from "react-router-dom";
+
+
 
 
 
@@ -22,6 +26,8 @@ const RouterPage = () => {
     <Route path='/CheckOut' element={<CheckOut/>}/>
     <Route path='/My Account' element={<Account/>}/>
     <Route path='/404' element={<Error/>}/>
+    <Route path='/Contact' element={<Contact/>}/>
+    <Route path='/Cart' element={<Cart/>}/>
 
  </Routes>
 

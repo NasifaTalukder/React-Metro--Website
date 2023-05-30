@@ -21,11 +21,11 @@ const MenuSec = () => {
               <ul className='flex flex-wrap space-x-2 text-medium font-medium  mt-3'>
                 <li><Link to="/">Home<KeyboardArrowDownIcon fontSize='small'/></Link></li>
                 <li><Link to="/Shop">Shop<KeyboardArrowDownIcon fontSize='small'/></Link></li>
-                <li><Link to="#">Card<KeyboardArrowDownIcon fontSize='small'/></Link></li>
+                <li><Link to="/Cart">Cart<KeyboardArrowDownIcon fontSize='small'/></Link></li>
                 <li><Link to="/CheckOut">Checkout<KeyboardArrowDownIcon fontSize='small'/></Link></li>
                 <li><Link to="/404">Error<KeyboardArrowDownIcon fontSize='small'/></Link></li>
                 <li><Link to="/My Account">My Account<KeyboardArrowDownIcon fontSize='small'/></Link></li>
-                <li><Link to="#">Contact</Link></li>
+                <li><Link to="/Contact">Contact</Link></li>
               </ul>
             </div>
             </div>

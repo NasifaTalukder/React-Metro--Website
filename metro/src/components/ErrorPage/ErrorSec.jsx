@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 const ErrorSec = () => {
   return (
    <>
-    <div>
-            <img src={Background} alt="" className='w-full bg-cover bg-fixed relative'/>
+         <div >
+            <img src={Background} alt="" className='w-full h-[830px] bg-fixed bg-center bg-no-repeat  bg-cover'/>
           </div>
           <div className='w-full h-[830px] bg-black absolute z-50 top-24 opacity-60 bg-no-repeat bg'>             
           </div>
           <div className='w-[1310px] m-auto'>
             <div>
                 <div>
-                    <img src={ErrorPic} alt="" className='z-[1000] absolute top-[380px] ml-[410px] bg-scroll'/>
+                    <img src={ErrorPic} alt="" className='z-[1000] absolute top-[380px] ml-[410px] '/>
                 </div>
                  <h1 className='text-6xl font-medium absolute z-[1000] top-[620px] text-white ml-[300px]'>OPS! Under Construction</h1>
                 <p className='text-lg font-medium absolute z-[1000] top-[700px] text-white ml-[440px]'>Try going to Home Page by using the button below.</p>

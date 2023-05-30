@@ -10,7 +10,7 @@ const LedComp = () => {
           <p className='text-lg font-medium mt-1'>Trending 2019</p>
           <span className='w-8 h-[2px] bg-black block mt-2 transition delay-500 hover:w-40 duration-700'></span>
           </div>
-          <div className='mt-4 overflow-hidden'>
+          <div className='imgHoverDiv'>
             <img src={LeshangerLight} alt="" className='w-[460px] m-auto transition ease-in-out delay-150 hover:-translate-x-1 hover:scale-110 duration-300 ...'/>
           </div>       
         </div>
