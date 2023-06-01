@@ -2,6 +2,15 @@
 *{
   font-family:  'Josefin Sans', sans-serif;
 }
+/* .ErorBg{
+  background: url("./metro/src/assets/ErrorPagePic/404bg.jpg");
+  width: 100%;
+  height: 830px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
 /* .imgHoverDiv{
   overflow: hidden;
   margin-top: 16px;

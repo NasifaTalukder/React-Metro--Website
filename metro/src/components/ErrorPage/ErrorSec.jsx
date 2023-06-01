@@ -2,11 +2,12 @@ import React from 'react'
 import Background from "../../assets/ErrorPagePic/404bg.jpg"
 import ErrorPic from "../../assets/ErrorPagePic/404.png"
 import { Link } from 'react-router-dom';
+import "../../App.css"
 
 const ErrorSec = () => {
   return (
    <>
-         <div >
+         <div className='ErorBg'>
             <img src={Background} alt="" className='w-full h-[830px] bg-fixed bg-center bg-no-repeat  bg-cover'/>
           </div>
           <div className='w-full h-[830px] bg-black absolute z-50 top-24 opacity-60 bg-no-repeat bg'>             
