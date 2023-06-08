@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+
 import MenuSec from './components/Homepage/MenuSec';
 import MenuBottom from './components/Homepage/MenuBottom';
 import HeroSec from './components/Homepage/HeroSec';

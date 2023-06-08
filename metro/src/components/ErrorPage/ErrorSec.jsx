@@ -8,7 +8,7 @@ const ErrorSec = () => {
   return (
    <>
          <div className='ErorBg'>
-            <img src={Background} alt="" className='w-full h-[830px] bg-fixed bg-center bg-no-repeat  bg-cover'/>
+            {/* <img src={Background} alt="" className='w-full h-[830px] bg-fixed bg-center bg-no-repeat  bg-cover'/> */}
           </div>
           <div className='w-full h-[830px] bg-black absolute z-50 top-24 opacity-60 bg-no-repeat bg'>             
           </div>

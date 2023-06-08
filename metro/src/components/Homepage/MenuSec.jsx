@@ -17,7 +17,7 @@ const MenuSec = () => {
             <img src={darkLogo} alt="" className='w-[130px]'/>
           </div>
           <div>
-            <div className='ml-[106px]'>
+            <div className='ml-[150px]'>
               <ul className='flex flex-wrap space-x-2 text-medium font-medium  mt-3'>
                 <li><Link to="/">Home<KeyboardArrowDownIcon fontSize='small'/></Link></li>
                 <li><Link to="/Shop">Shop<KeyboardArrowDownIcon fontSize='small'/></Link></li>
