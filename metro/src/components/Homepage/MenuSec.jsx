@@ -29,7 +29,7 @@ const MenuSec = () => {
               </ul>
             </div>
             </div>
-            <div className='flex flex-wrap space-x-3 mt-2 ml-28 font-sans'>
+            <div className='flex flex-wrap space-x-3 mt-2 ml-28 font-sans cursor-pointer'>
             <SearchIcon fontSize='large'/>
             <PersonOutlineIcon fontSize='large'/>
             <FavoriteBorderIcon fontSize='large'/>            

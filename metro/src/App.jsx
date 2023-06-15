@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-
 import MenuSec from './components/Homepage/MenuSec';
 import MenuBottom from './components/Homepage/MenuBottom';
 import HeroSec from './components/Homepage/HeroSec';
-import LedComp from './components/Homepage/ledComp';
+import LedComp from "./components/Homepage/LedComp"
 import HeadPhoneSec from './components/Homepage/headPhone';
 import GameControllerSec from './components/Homepage/GameControllerSec';
 import KeyboardComp from './components/Homepage/KeyboardComp';

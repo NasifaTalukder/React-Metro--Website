@@ -5,9 +5,9 @@ const InspireCompTre = () => {
   return (
   <>
    <div>
-              <div className='box-border overflow-hidden'>
+              <div className='box-border overflow-hidden InpireImageTreImg'>
                 <img src={InspireImagetre} alt="" className='relative w-[415px] rounded align-middle overflow-hidden transition ease-in-out delay-150 hover:rotate-6 hover:scale-110  origin-center duration-300...' />
-                <div className='w-[70px] h-[70px] rounded-full bg-white absolute -mt-24 ml-7  hover:bg-black hover:text-white'>
+                <div className='InpireImageTreCircle w-[70px] h-[70px] rounded-full bg-white absolute -mt-24 ml-7 '>
                   <div className=' mt-4 '>
                   <p className='font-sans ml-7 font-medium leading-4'>23</p>
                 <h2 className='font-sans font-bold ml-5'>Dec</h2>

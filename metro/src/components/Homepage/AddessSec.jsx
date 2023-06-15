@@ -18,11 +18,11 @@ const AddessSec = () => {
                 </ul>
                 <ul className='flex flex-wrap'>
                 <span className='text-slate-300 mt-4'><PhoneInTalkOutlinedIcon sx={{ fontSize:30 }}/></span>
-                  <li className='text-slate-300 mt-5 w-72 list-outside ml-4 font-sans font-normal '>+123 456 7890</li>
+                  <li className='text-slate-300 mt-5 w-72 list-outside ml-4 font-sans font-normal cursor-pointer'>+123 456 7890</li>
                 </ul>
                 <ul className='flex flex-wrap'>
                 <span className='text-slate-300 mt-4'><MailOutlineOutlinedIcon sx={{ fontSize:30 }}/></span>
-                  <li className='text-slate-300 mt-5 w-72 list-outside ml-4 font-sans font-normal '>info@example.com</li>
+                  <li className='text-slate-300 mt-5 w-72 list-outside ml-4 font-sans font-normal cursor-pointer'>info@example.com</li>
                 </ul>
               </div>           
             </div>

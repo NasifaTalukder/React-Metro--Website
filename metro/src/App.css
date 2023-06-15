@@ -11,30 +11,351 @@
   background-size: cover;
   background-attachment: fixed;
 }
-/* .imgHoverDiv{
+.imgHoverDiv{
   overflow: hidden;
   margin-top: 16px;
 }
-.SpanBorder{
-  width: 32px;
-  height: 2px;
-  background-color: black;
-  display: block;
-  margin-top: 8px;
-
+.imgHoverDiv img{
+  transform: scale(1);
 }
-.imgHoverDiv:hover ,imgHoverDiv img{
+
+.backDiv:hover .imgHoverDiv img{
   transition: all;
   transition: ease-out;
-  transition-delay: 0s;
-  transform: translateX(1);
-  transform: scale(1);
+  transition-delay: 200ms;
+  transform: scale(1.1);
+ transition-duration: 0.3s;
+}
+.backDiv:hover .SpanBorder{
+  transition: all;
+  transition-delay: 200ms;
   transition-duration: 0.3s;
-  transition-property: all;
-} */
+  width: 180px;
+}
+
+.HeadPhoneImg img{
+  transform: scale(1);
+}
+
+.HeadDiv:hover .HeadPhoneImg img{
+  transition: all;
+  transition: ease-out;
+  transition-delay: 200ms;
+  transform: scale(1.1);
+ transition-duration: 0.3s;
+}
+.HeadDiv:hover .HeadSpanBorder{
+  transition: all;
+  transition-delay: 200ms;
+  transition-duration: 0.3s;
+  width: 150px;
+}
+
+.GameControllerImg:hover .GameContollerPrice{
+    display: none;
+}
+.GameAdd{
+  display: none;
+}
+.GameControllerImg:hover .GameAdd{
+   display: block;
+   transition-delay: 300ms;
+  transition-duration: 0.3s;
+
+}
+.KeyBoardImg:hover .KeyBoardPrice{
+  display: none;
+}
+.KeyBoardAdd{
+display: none;
+}
+.KeyBoardImg:hover .KeyBoardAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+
+}
+.SpeakerImg:hover .SpeakerPrice{
+  display: none;
+}
+.SpeakerAdd{
+display: none;
+}
+.SpeakerImg:hover .SpeakerAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+}
+.HeadPhoneImg:hover .HeadPhonePrice{
+  display: none;
+}
+.HeadPhoneAdd{
+display: none;
+}
+.HeadPhoneImg:hover .HeadPhoneAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+}
+.laserImg:hover .laserPrice{
+  display: none;
+}
+.laserAdd{
+display: none;
+}
+.laserImg:hover .laserAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+}
+.BluetoothImg:hover .BluetoothPrice{
+  display: none;
+}
+.BluetoothAdd{
+display: none;
+}
+.BluetoothImg:hover .BluetoothAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+}
+.GadgetImg:hover .GadgetPrice{
+  display: none;
+}
+.GadgetAdd{
+display: none;
+}
+.GadgetImg:hover .GadgetAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+}
+.WatchImg:hover .WatchPrice{
+  display: none;
+}
+.WatchAdd{
+display: none;
+}
+.WatchImg:hover .WatchAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+}
+.GraphicsImg:hover .GraphicsPrice{
+  display: none;
+}
+.GraphicsAdd{
+display: none;
+}
+.GraphicsImg:hover .GraphicsAdd{
+ display: block;
+ transition-delay: 300ms;
+transition-duration: 0.3s;
+}
+.InpireImageOneImg:hover .InpireImageOneCircle{
+  background-color: black;
+  color: #fff;
+}
+.InpireImageTwoImg:hover .InpireImageTwoCircle{
+  background-color: black;
+  color: #fff;
+}
+.InpireImageTreImg:hover .InpireImageTreCircle{
+  background-color: black;
+  color: #fff;
+}
 
 
-/* .productOneHover:hover latter{
-  margin-top: -40px;
 
-} */
+
+
+
+
+
+
+
+
+
+
+
+.productOneHover:hover .latterOne{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonOne,.bottomButtonTwo{
+  display: none;
+}
+.productOneHover:hover .bottomButtonOne{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+.productTwoHover:hover .latterTwo{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonTwo{
+  display: none;
+}
+.productTwoHover:hover .bottomButtonTwo{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+
+.productTreHover:hover .latterTre{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonTre{
+  display: none;
+}
+.productTreHover:hover .bottomButtonTre{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+.productFourHover:hover .latterFour{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonFour{
+  display: none;
+}
+.productFourHover:hover .bottomButtonFour{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+.productFiveHover:hover .latterFive{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonFive{
+  display: none;
+}
+.productFiveHover:hover .bottomButtonFive{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+.productSixHover:hover .latterSix{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonSix{
+  display: none;
+}
+.productSixHover:hover .bottomButtonSix{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+.productSevenHover:hover .latterSeven{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonSeven{
+  display: none;
+}
+.productSevenHover:hover .bottomButtonSeven{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+.productEightHover:hover .latterEight{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonEight{
+  display: none;
+}
+.productEightHover:hover .bottomButtonEight{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}
+.productNineHover:hover .latterNine{
+  margin-top: -50px;
+  transition: all;
+  transition-delay: 300ms;
+  transform: translateY(1);
+  transition-duration: 300ms;
+  overflow: hidden;
+}
+.bottomButtonNine{
+  display: none;
+}
+.productNineHover:hover .bottomButtonNine{
+  transition: all;
+  transition-delay: 5s;
+  transform: translateY(1);
+  transform: scale(1.1);
+  transition-duration: 5s;
+  display: block;
+  overflow: hidden;
+}

@@ -15,7 +15,7 @@ const MenuBottom = () => {
             </div>           
             <span className='w-[1px] h-8 bg-[#ddd] absolute ml-[950px] mt-3 '></span>                    
             <div className='absolute ml-[980px] mt-4'>           
-            <select name="" id="" className='pl-4 pr-8 text-lg outline-0 text-slate-600 font-sans'>             
+            <select name="" id="" className='pl-4 pr-8 text-lg outline-0 text-slate-600 font-sans cursor-pointer'>             
                <option value="">All categories</option>
                <option value="">Air Filter</option>
                <option value="">Body Engine</option>
@@ -37,7 +37,7 @@ const MenuBottom = () => {
             </select>
             </div>
             <div>
-              <button className='pl-5 pr-5 pt-3 pb-3 bg-black absolute text-white ml-[-75px] rounded-r'><SearchIcon fontSize='large'/></button>
+              <button className='pl-5 pr-5 pt-3 pb-3 bg-black absolute text-white ml-[-75px] rounded-r hover:opacity-80'><SearchIcon fontSize='large'/></button>
             </div>
         </div>
     </>

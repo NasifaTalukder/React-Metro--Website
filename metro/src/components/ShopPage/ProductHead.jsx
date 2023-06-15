@@ -19,8 +19,8 @@ const ProductHead = () => {
                 </div>               
                 </div>
                 <div className='flex flex-wrap justify-end space-x-2'>
-                <span className='border-2 border-[#ddd] p-2 rounded  text-slate-400'><ViewModuleIcon/></span>  
-               <span  className='border-2 border-[#ddd] p-2 rounded text-slate-400'> <ViewListIcon  />  </span>             
+                <span className='border-2 border-[#ddd] p-2 rounded  text-slate-400 cursor-pointer'><ViewModuleIcon/></span>  
+               <span  className='border-2 border-[#ddd] p-2 rounded text-slate-400 cursor-pointer'> <ViewListIcon  />  </span>             
                 </div>
             </div>
   </>

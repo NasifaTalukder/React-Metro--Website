@@ -53,7 +53,7 @@ const HeroSec = () => {
 swipeable={false}
   draggable={false}
   showDots={true}
-  ssr={true} // means to render carousel on server-side.
+  ssr={false} 
   infinite={true}
   autoPlay={true}
   autoPlaySpeed={1000}

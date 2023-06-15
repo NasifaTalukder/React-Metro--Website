@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../App.css';
 import MenuSec from './Homepage/MenuSec';
 import ShopSec from './ShopPage/ShopSec';
 import ProductHead from './ShopPage/ProductHead';
@@ -45,7 +45,7 @@ const Shop = () => {
            {/* -----------ProductHead Section------- */}
            <ProductHead/>
             <div className='flex flex-wrap space-x-11'>
-            <div className=''>
+            <div className='h-[1400px]'>
             <div className='flex flex-wrap space-x-6 mt-14 cursor-pointer'>
             {/* ------------Product one-------- */}
             <ProductOneSec/>
@@ -101,7 +101,7 @@ const Shop = () => {
         </div>
         </div>
         <div className='mt-20 ml-[425px]'>
-          <button className='pl-5 pr-5 pt-2 pb-2 rounded bg-black text-white font-sans font-medium'>Load More</button>
+          <button className='pl-5 pr-5 pt-2 pb-2 rounded bg-black text-white font-sans font-medium hover:opacity-70'>Load More</button>
         </div>
        </div>
 
